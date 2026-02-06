@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar.jsx";
+import NavBar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
 import Footer from "./components/Footer.jsx";
 import { Navigate, Route, Routes } from "react-router-dom";
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div>
-      {!hideNavebarFooter && <Navbar />}
+      {!hideNavebarFooter && <NavBar />}
 
       <Routes>
         <Route
