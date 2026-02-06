@@ -25,7 +25,7 @@ console.log(profile)
   const logout = async (e) => {
     e.preventDefault();
     try {
-      await axios.get("http://localhost:4001/api/user/logout", {
+      await axios.get("https://blogapp-3z2p.onrender.com/api/user/logout", {
         withCredentials: true,
       });
 

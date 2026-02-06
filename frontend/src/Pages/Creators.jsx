@@ -8,7 +8,7 @@ export default function Creator() {
   useEffect(() => {
     const fetchAdmins = async () => {
       const { data } = await axios.get(
-        "http://localhost:4001/api/user/admins",
+        "https://blogapp-3z2p.onrender.com/api/user/admins",
         { withCredentials: true },
       );
 

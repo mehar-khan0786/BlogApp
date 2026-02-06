@@ -14,7 +14,7 @@ export default function MyBlogs() {
       try {
         
         const { data } = await axios.get(
-          "http://localhost:4001/api/blogs/my-blog",
+          "https://blogapp-3z2p.onrender.com/api/blogs/my-blog",
           { withCredentials: true },
         );
 
