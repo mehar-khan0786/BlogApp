@@ -14,7 +14,7 @@ export default function AuthProvider({ children }) {
     const fetchProfile = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4001/api/user/myprofile",
+          "https://blogapp-3z2p.onrender.com/api/user/myprofile",
           { withCredentials: true }
         );
 
